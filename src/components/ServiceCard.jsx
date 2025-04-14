@@ -3,8 +3,8 @@ import React from "react";
 const ServiceCard = ({ title,description}) => {
     return (
         <div style = {styles.card}>
-            <h2 style = {styles.title}>Web Development</h2>
-            <p style = {styles.description}> Web development can be a highly paid job in future.</p>
+            <h2 style = {styles.title}>{title}</h2>
+            <p style = {styles.description}>{description}</p>
 
         </div>
  
@@ -27,13 +27,13 @@ const styles = {
     title:{
         margin: "0",
         fontSize: "1.2em",
-        color: "#333",
+        color: "red",
     },
 
     description:{
         margin: "5px",
         fontSize: "1em",
-        color: "#666",
+        color: "black",
     },
 
 };
